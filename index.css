@@ -81,27 +81,32 @@ a:hover, a:active {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    margin-bottom: 4px;
 }
 
 /* Projects */
 .projects {
     display: flex;
     justify-content: center;
-    gap: 125px;
+    text-align: center;
+    gap: 100px;
 }
 
 .project {
-    max-width: 250px;
-    text-align: center;
+    align-items: center;
 }
 
 .project img {
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .project p {
     font-size: 18px;
-    color: #babcbb;
+    color: #3a3b3c;
+    max-width: 250px;
+    text-align: center;
 }
 
 .title {
