@@ -88,8 +88,7 @@ a:hover, a:active {
 .projects {
     display: flex;
     justify-content: center;
-    text-align: center;
-    gap: 100px;
+    align-items: center;
 }
 
 .project {
@@ -100,13 +99,15 @@ a:hover, a:active {
     border-radius: 15px;
     display: flex;
     justify-content: center;
+    margin-bottom: 25px;
 }
 
-.project p {
+.text {
     font-size: 18px;
     color: #3a3b3c;
     max-width: 250px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .title {
@@ -124,7 +125,7 @@ a:hover, a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 300px;
     flex-direction: column;
     margin: 0;
     border: 0;
@@ -132,7 +133,7 @@ a:hover, a:active {
 
 .quote {
     font-size: 26px;
-    font-weight: light-italic;
+    font-style: italic;
     color: #1f2937;
     display: flex;
     justify-content: center;
@@ -143,4 +144,7 @@ a:hover, a:active {
 
 .author {
     padding: -300px;
+    text-align: right;
+    width: 475px;
+    font-weight: bold;
 }
