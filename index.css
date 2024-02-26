@@ -1,7 +1,47 @@
-.header {
+body {
     display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: inline-flex;
+    justify-content: space-around;
+    color: #F9FAF8;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 16px;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: #babcbb;
+}
+
+.intro-container, .header {
+    background-color: #1f2937;
+}
+
+.name {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    display: flex;
 }
