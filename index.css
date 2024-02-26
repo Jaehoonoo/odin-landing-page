@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+/* header */
 .header {
     display: inline-flex;
     justify-content: space-around;
@@ -34,6 +34,7 @@ a:hover, a:active {
     color: #babcbb;
 }
 
+/* intro */
 .intro-container, .header {
     background-color: #1f2937;
     color: #f9faf8
@@ -54,4 +55,10 @@ a:hover, a:active {
 .intro-container img {
     display: flex;
     justify-content: right;
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    justify-content: space-around;
 }
