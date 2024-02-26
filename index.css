@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    border: 0;
 }
 /* header */
 .header {
@@ -37,7 +39,7 @@ a:hover, a:active {
 /* intro */
 .intro-container, .header {
     background-color: #1f2937;
-    color: #f9faf8
+    color: #f9faf8;
 }
 
 .name {
@@ -60,5 +62,34 @@ a:hover, a:active {
 /* Projects */
 .projects {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 125px;
+}
+
+.project {
+    max-width: 250px;
+    text-align: center;
+}
+
+.project img {
+    border-radius: 25px;
+}
+
+.project p {
+    font-size: 18px;
+    color: #babcbb;
+}
+
+.title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+
+/* quotes */
+.quote-container {
+    background-color: #e5e7eb;
 }
