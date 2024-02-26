@@ -6,7 +6,6 @@ body {
 .header {
     display: inline-flex;
     justify-content: space-around;
-    color: #F9FAF8;
 }
 
 .header-title {
@@ -37,6 +36,7 @@ a:hover, a:active {
 
 .intro-container, .header {
     background-color: #1f2937;
+    color: #f9faf8
 }
 
 .name {
