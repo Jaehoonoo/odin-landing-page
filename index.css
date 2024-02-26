@@ -45,3 +45,13 @@ a:hover, a:active {
     color: #F9FAF8;
     display: flex;
 }
+
+.name, .bio {
+    display: flex;
+    justify-content: left;
+}
+
+.intro-container img {
+    display: flex;
+    justify-content: right;
+}
