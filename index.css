@@ -15,6 +15,15 @@ button {
     padding: 8px;
 }
 
+a, a:visited {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+a:hover, a:active {
+    color: #babcbb;
+}
+
 /* header */
 .header {
     display: inline-flex;
@@ -37,13 +46,11 @@ ul {
     font-size: 18px;
 }
 
-a, a:visited {
-    text-decoration: none;
+.header a, .header a:visited {
     color: #e5e7eb;
 }
 
-a:hover, a:active {
-    text-decoration: none;
+.header a:hover, .header a:active {
     color: #babcbb;
 }
 
@@ -90,6 +97,14 @@ a:hover, a:active {
     justify-content: space-around;
 }
 
+.projects a, .projects a:visited {
+    color: #1f2937;
+}
+
+.projects a:hover, .projects a:active{
+    color: #babcbb;
+}
+
 .project {
     display: flex;
     flex-direction: column;
@@ -109,6 +124,15 @@ a:hover, a:active {
     max-width: 250px;
     text-align: center;
     margin-bottom: 40px;
+}
+
+.project-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3a3b3c;
+    max-width: 250px;
+    text-align: center;
+    margin-bottom: 4px;
 }
 
 .title {
